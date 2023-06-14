@@ -20,7 +20,7 @@ const CheckoutForm = () => {
     e.preventDefault()
     if(!stripe || !elements || user.cart.count <= 0) return
     setPaying(true)
-    const {client_secret} = await fetch("http://localhost:8000/create-payment", {
+    const {client_secret} = await fetch("https://e-commerce-backend-15em.onrender.com/create-payment", {
         method: "POST",
         headers:{
             "Content-Type" : "application/json"
