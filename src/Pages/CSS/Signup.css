@@ -24,6 +24,33 @@
     height: 100vh;
 }
 
+.adminLogin{
+    margin-top: 20px;
+    background-color: skyblue;
+    padding: 5px;
+}
+
+.adminLogin > p{
+    margin: 10px;
+}
+
+.adminLogin > p > span{
+    font-weight: bolder;
+}
+
+.clientLogin{
+    margin-top: 20px;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.clientLogin > p{
+    margin: 10px;
+}
+.clientLogin > p > span{
+    font-weight: bolder;
+}
+
 @media screen and (max-width: 767px) {
     .login_image--container,
     .signup_image--container{

@@ -38,6 +38,17 @@ const handleLogin = (e) => {
                         <Button disabled={isLoading} type='submit'>Login</Button>
                     </Form.Group>
 
+                    <div className='adminLogin'>
+                        <h5>Admin Login</h5>
+                        <p>Username: <span>selva@gmail.com</span></p>
+                        <p>Password: <span>Selva123</span></p>
+                    </div>
+                    <div className='clientLogin'>
+                        <h5>Client Login</h5>
+                        <p>Username: <span>selva123@email.com</span></p>
+                        <p>Password: <span>Selva888</span></p>
+                    </div>
+
                     <p className='pt-3 text-center'>
                         Don't have an account? <Link to="/signup">Create account</Link>{" "}
                     </p>
