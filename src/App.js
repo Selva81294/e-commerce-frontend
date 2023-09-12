@@ -62,11 +62,11 @@ function App() {
             <>
               <Route path="/admin" element={<AdminDashboard />} />
               <Route path="/product/:id/edit" element={<EditProductPage />} />
+              <Route path="/new-product" element={<NewProducts />} />
             </>
           )}
           <Route path="/product/:id" element={<ProductPage />} />
           <Route path="/category/:category" element={<CategoryPage />} />
-          <Route path="/new-product" element={<NewProducts />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
